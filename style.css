@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+body{
+    width: 70%;
+    margin-inline: 15%;
+    margin-top: 70px;
+    background-color: rgba(65, 77, 69, 0.801);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+header button{
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: aliceblue;
+    border: none;
+}
+
+button{
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+#deleteAll{
+    background-color: rgb(194, 6, 6);
+}
+
+#fastestTask{
+    background-color: rgba(50, 50, 146, 0.836);
+}
+
+header div{
+    width:55%;
+    text-align: end;
+}
+
+.addContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.addContainer input{
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    margin-right: 50px;
+}
+
+.addContainer button{
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.addContainer button span{
+    font-size: 35px;
+    color: white;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 60px;
+    border: 4px solid rgb(78, 76, 76);
+    margin-bottom: 40px;
+}
+
+ul li p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+ul li button{
+    display: flex;
+    align-items: center;
+}
+
+#deleteOne{
+    color: white;
+    background-color: rgb(194, 6, 6);
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#deleteOne span{
+    font-size: 30px;
+}
+
+.checked{
+    text-decoration: line-through rgb(78, 76, 76) 3px;
+}
+
+#checkbox{
+    border: none;
+    background-color: white;
+    padding: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
